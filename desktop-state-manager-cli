@@ -1,0 +1,14 @@
+#!/bin/bash
+# Desktop State Manager - CLI Launcher Script
+# Version 3.0 with auto-restore and enhanced window placement
+
+# Set the application directory
+APP_DIR="/usr/share/desktop-state-manager"
+
+# Check if running in development mode (from source directory)
+if [[ -f "$(dirname "$0")/tilingshell-desktop-restore.sh" ]]; then
+    APP_DIR="$(dirname "$0")"
+fi
+
+# Launch the core script
+exec "$APP_DIR/tilingshell-desktop-restore.sh" "$@"

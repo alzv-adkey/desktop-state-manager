@@ -1,0 +1,14 @@
+#!/bin/bash
+# Desktop State Manager - Main Launcher Script
+# Version 3.0 with auto-restore and enhanced window placement
+
+# Set the application directory
+APP_DIR="/usr/share/desktop-state-manager"
+
+# Check if running in development mode (from source directory)
+if [[ -f "$(dirname "$0")/desktop-state-manager-simple.py" ]]; then
+    APP_DIR="$(dirname "$0")"
+fi
+
+# Launch the simple GUI version (most reliable)
+exec python3 "$APP_DIR/desktop-state-manager-simple.py" "$@"

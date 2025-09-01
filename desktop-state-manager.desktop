@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Desktop State Manager
+GenericName=Desktop Layout Manager
+Comment=Save and restore desktop layout with auto-restore and enhanced window placement
+Exec=/usr/bin/desktop-state-manager
+Icon=desktop-state-manager
+Terminal=false
+StartupNotify=true
+Categories=Settings;DesktopSettings;System;
+Keywords=desktop;state;restore;save;layout;workspace;tiling;auto-restore;placement;session;
+StartupWMClass=desktop-state-manager
+MimeType=
+

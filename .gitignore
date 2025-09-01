@@ -1,0 +1,46 @@
+# Build artifacts
+*.rpm
+*.tar.gz
+*.src.rpm
+noarch/
+SRPMS/
+rpmbuild/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test and temporary files
+test-output/
+*.log
+*.tmp
+
+# User-specific runtime files
+desktop-state-backup-*
+sample-state.json
+
+# Development environment
+.env
+.venv/
+env/
+venv/

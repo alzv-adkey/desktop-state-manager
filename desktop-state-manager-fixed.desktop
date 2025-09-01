@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Desktop State Manager (Fixed)
+Comment=Save and restore your desktop layout with working buttons
+Exec=/home/az/launch-simple-gui.sh
+Icon=applications-utilities
+Terminal=false
+Type=Application
+Categories=Utility;Settings;
+StartupNotify=true
+Keywords=desktop;state;restore;save;layout;tiling;
+
