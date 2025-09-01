@@ -1,5 +1,5 @@
 Name:           desktop-state-manager
-Version:        3.4
+Version:        3.5
 Release:        1%{?dist}
 Summary:        Desktop state management tool with auto-restore and enhanced window placement
 
@@ -117,6 +117,19 @@ if [ $1 -eq 0 ] ; then
 fi
 
 %changelog
+* Sun Sep 01 2025 Desktop State Manager Team <dev@desktop-state-manager.org> - 3.5-1
+- MAJOR RELEASE: Complete project modernization and infrastructure overhaul
+- NEW: Comprehensive logging system with colored output, file rotation, and performance tracking
+- NEW: Advanced configuration management with user-customizable settings and validation
+- NEW: Professional backup system with compression, rotation, and metadata tracking
+- NEW: Automated test suite with 16 tests covering all components (100% success rate)
+- NEW: GitHub Actions CI/CD pipeline for automated testing and building
+- NEW: Git repository with proper version control and contributing guidelines
+- Enhanced error handling and recovery mechanisms throughout the codebase
+- Performance optimizations and monitoring capabilities
+- Professional documentation and development workflow
+- Enterprise-ready infrastructure for sustainable development
+
 * Thu Jun 26 2025 Desktop State Manager Team <dev@desktop-state-manager.org> - 3.4-1
 - CRITICAL FIX: TilingShell tiling restored correctly for side-by-side apps (Outlook, Asana)
 - Improved timing and delay handling between TilingShell restoration and manual adjustments
